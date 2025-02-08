@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #51c936, #187a27);
+}
+
+
+

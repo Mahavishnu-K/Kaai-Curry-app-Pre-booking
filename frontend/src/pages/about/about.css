@@ -1,0 +1,45 @@
+.about-container{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.about-us{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 5%;
+    left: 45%;
+    width: 740px;
+}
+
+.about-title,.about-credit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-title h2{
+    color: #4CAF50;
+    font-weight: 600;
+}
+
+.about-credit h3{
+    color: #4CAF50;
+    font-weight: 600;
+}
+
+@keyframes smoothStepRotate {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(90deg); } 
+    50% { transform: rotate(180deg); } 
+    75% { transform: rotate(270deg); } 
+    100% { transform: rotate(360deg); } 
+}
+
+.foodring {
+    position: absolute;
+    left: -15%;
+    animation: smoothStepRotate 15s ease-in-out infinite; 
+}
+
+

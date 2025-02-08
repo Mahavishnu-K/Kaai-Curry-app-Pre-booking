@@ -1,0 +1,96 @@
+.endcard {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(3, 92, 40, 0.9), rgba(25, 87, 52, 1));
+}
+
+.credit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.credit-text{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.korker1, .korker2{
+    font-family: "Kolker Brush", serif;
+    color: rgb(248, 147, 6);
+}
+
+.korker1{
+    margin-top: -1px;
+    font-size: 9rem;
+}
+
+.soon{
+    font-family: "Permanent Marker", serif;
+    color: white;
+    margin-top: -240px;
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+.korker2{
+    margin-top: -190px;
+    font-size: 13rem;
+    margin-right: 40px;
+}
+
+@keyframes zoomOut {
+    0% {
+        transform: scale(10);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1); 
+        opacity: 1;
+    }
+}
+
+.korker1, .korker2, .soon {
+    opacity: 0;
+}
+
+.korker1.animate, .korker2.animate, .soon.animate {
+    animation: zoomOut 0.3s ease-out forwards;
+    opacity: 0;
+}
+
+
+.korker1.animate {
+    animation-delay: 0s;
+}
+
+.soon.animate {
+    animation-delay: 1s;
+}
+
+.korker2.animate {
+    animation-delay: 2.5s;
+}
+
+.chennai.animate {
+    animation: riseUp 2.5s ease-in forwards;
+}
+
+.chennai{
+    position: absolute;
+    bottom: -55%;
+    right: 1px;
+    width: 1546px;
+    height: 592px;
+    
+}
+
+@keyframes riseUp {
+    0%{
+        bottom: -55%;
+    }
+    100%{
+        bottom: 0;
+    }
+}

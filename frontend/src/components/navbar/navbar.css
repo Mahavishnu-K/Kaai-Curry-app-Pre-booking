@@ -1,0 +1,47 @@
+.header{
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    overflow: hidden;
+    background: transparent;
+    transition: 0.3 ease-in;
+}
+
+
+.header .navbar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    max-width: 1240px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.header .nav-item{
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 50px;
+}
+
+.item-link {
+    text-decoration: none;
+    color: black;
+}
+
+.item-link.active{
+    color: rgb(41, 180, 20);
+}
+
+.item-link:hover {
+    padding-bottom: 8px;
+    color: rgb(41, 180, 20);
+    transition: color 0.2s ease-in-out;
+}

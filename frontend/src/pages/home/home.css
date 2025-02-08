@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.hero-text {
+    text-align: left;
+}
+
+.hero-text h2 {
+    font-size: 50px;
+    color: #007F42;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.hero-button {
+    margin-top: 10%;
+}
+
+.hero-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 15px 40px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: #007F42;
+    position: relative;
+    z-index: 10; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.hero-btn:hover {
+    transform: scale(1.1);  
+    box-shadow: 0px 0px 25px 5px rgba(3, 93, 50, 0.5); 
+    animation: bounce 0.4s ease-in-out;
+}
+
+
+@keyframes bounce {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.13); }
+    100% { transform: scale(1.1); }
+}
+
+.hero-img {
+    position: relative;
+    height: 100vh;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+
+.capsicum {
+    position: absolute;
+    top: -25%;
+    right: 18%;
+    animation: capsicum 4s ease-in-out forwards, float 2.5s ease-in-out infinite 4s;
+}
+
+@keyframes capsicum {
+    0% {
+        top: -25%;
+    }
+    100% {
+        top: 10%;
+    }
+}
+
+.cabbage1 {
+    position: absolute;
+    top: -25%;
+    right: 12%;
+    animation: cabbage1 5s ease-in-out forwards, float 2.5s ease-in-out infinite 5s;
+}
+
+@keyframes cabbage1 {
+    0% {
+        top: -25%;
+    }
+    100% {
+        top: 27%;
+    }
+}
+
+.cabbage2 {
+    position: absolute;
+    top: -30%;
+    right: 25%;
+    animation: cabbage2 4s ease-in-out forwards, float 1.5s ease-in-out infinite 4s;
+}
+
+@keyframes cabbage2 {
+    0% {
+        top: -30%;
+    }
+    100% {
+        top: 30%;
+    }
+}
+
+.cucumber {
+    position: absolute;
+    top: -30%;
+    right: 20%;
+    animation: cucumber 7s ease-in-out forwards, float 1.9s ease-in-out infinite 7s;
+
+}
+
+@keyframes cucumber {
+    0% {
+        top: -30%;
+    }
+    100% {
+        top: 40%;
+    }
+}
+
+.capsicum2 {
+    position: absolute;
+    top: -35%;
+    right: 15%;
+    animation: capsicum2 7s ease-in-out forwards, float 3.5s ease-in-out infinite 7s;
+}
+
+@keyframes capsicum2 {
+    0% {
+        top: -35%;
+    }
+    100% {
+        top: 47%;
+    }
+}
+
+.corr1 {
+    position: absolute;
+    top: -40%;
+    right: 10%;
+    animation: corr1 7s ease-in-out forwards, float 2s ease-in-out infinite 7s;
+}
+
+@keyframes corr1 {
+    0% {
+        top: -40%;
+    }
+    100% {
+        top: 40%;
+    }
+}
+
+.corr2 {
+    position: absolute;
+    top: -50%;
+    right: 25%;
+    animation: corr2 7s ease-in-out forwards, float 2.5s ease-in-out infinite 7s;
+}
+
+
+@keyframes corr2 {
+    0% {
+        top: -50%;
+    }
+    100% {
+        top: 55%;
+    }
+}
+
+.plate-img {
+    position: absolute;
+    bottom: -6%;
+    right: -5%;
+    width: 770px;
+    height: 430px;
+}
+
+.ring {
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    animation: appearFromBottomCorner  4s ease-in-out forwards;
+}
+
+@keyframes appearFromBottomCorner {
+    0% {
+        transform: translateX(-100%) translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0) translateX(0); 
+        opacity: 5;
+    }
+}
+
+.circle {
+    position: absolute;
+    top: -20%;
+    left: 25%;
+    animation: fallDown 5s ease-in-out forwards;
+}
+
+@keyframes fallDown {
+    0% {
+        top: -20%;
+        opacity: 0;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-text h2 {
+        font-size: 30px;
+    }
+}
+

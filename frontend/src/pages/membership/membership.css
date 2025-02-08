@@ -1,0 +1,162 @@
+.pricing-container {
+    display: flex;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+.price-content {
+    position: absolute;
+    top: 8%;
+}
+
+.pricing-title {
+    font-size: 25px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.pricing-subtitle {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.toggle-button {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 540;
+    color: black;
+}
+
+.toggle-button.active {
+    background-color: #0b9444;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.pricing-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 440px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+
+
+.plan-name {
+    background: #0b9444;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: start;
+    width: fit-content;
+    margin-bottom: 10px;
+    font-weight: 550;
+}
+
+.plan-description {
+    color: black;
+    font-size: 14px;
+    text-align: start;
+}
+
+.plan-price {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: start;
+    margin: 0;
+    color: #0b9444;
+}
+
+.price-cycle {
+    font-size: 14px;
+    margin-top: -1px;
+    font-weight: bold;
+    text-align: start;
+    color: rgb(57, 56, 56);
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list li {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+.highlight {
+    background: linear-gradient(135deg, #0b9444, #0e7038);
+    color: white;
+}
+
+.highlight .plan-name {
+    background: white;
+    color: #0b9444;
+}
+
+.highlight .plan-price {
+    color: white;
+}
+
+.highlight .plan-description{
+    color: white;
+}
+
+.highlight .price-cycle{
+    color: white;
+}
+
+.highlight .features-list li {
+    color: white;
+}
+
+.tick{
+    color: #0b9444;
+}
+
+.tickhigh{
+    color: white;
+}
+
+
+
