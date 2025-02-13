@@ -1,9 +1,8 @@
 .footer {
     background-color: #f8f9fa;
-    padding: 40px;
+    padding: 10px;
+    margin-top: 30px;
     margin-left: 50px;
-    height: 250px;
-    overflow: hidden;
 
   }
   
@@ -50,7 +49,6 @@
   .footer-section ul li a:hover {
     color: #054819;
     transform: scaleX(1.05);  
-
     transition: 0.3s;
   }
   

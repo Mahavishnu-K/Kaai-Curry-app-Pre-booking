@@ -1,15 +1,15 @@
 .pricing-container {
-    display: flex;
-    text-align: center;
     position: relative;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
+}
   
 .price-content {
-    position: absolute;
-    top: 8%;
+    padding: 5%;
+}
+
+.price-para p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pricing-title {

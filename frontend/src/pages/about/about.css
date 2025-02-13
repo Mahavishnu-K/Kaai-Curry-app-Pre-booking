@@ -1,18 +1,21 @@
 .about-container{
     position: relative;
-    height: 100vh;
-    overflow: hidden;
+    padding: 2px;
 }
 
 .about-us{
-    position: absolute;
-    font-size: 18px;
     margin-top: 5%;
-    left: 45%;
-    width: 740px;
+    font-size: 18px;
+    padding: 30px;
+    margin-left: 35%;
+    max-width: 740px;
 }
 
-.about-title,.about-credit{
+.about-us div{
+    margin-bottom: 40px;
+}
+
+.about-title, .about-credit{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +41,10 @@
 
 .foodring {
     position: absolute;
-    left: -15%;
+    left: -14%;
+    top: 10%;
+    min-height: 686px;
+    max-width: 688px;
     animation: smoothStepRotate 15s ease-in-out infinite; 
 }
 

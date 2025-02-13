@@ -59,10 +59,12 @@ function Membership(){
         <>
             <div className="pricing-container">
                 <div className="price-content">
-                    <p className="pricing-title">Plans & Pricings</p>
-                    <p className="pricing-subtitle">
-                        Choose a meal plan that fits your lifestyle. Fresh, nutritious, and delicious meals delivered to your doorstep!
-                    </p>
+                    <div className="price-para">
+                        <p className="pricing-title">Plans & Pricings</p>
+                        <p className="pricing-subtitle">
+                            Choose a meal plan that fits your lifestyle. Fresh, nutritious, and delicious meals delivered to your doorstep!
+                        </p>
+                    </div>
 
                     <div className="toggle-container">
                         <button

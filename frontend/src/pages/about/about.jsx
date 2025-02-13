@@ -20,9 +20,9 @@ function About(){
                         <p>Every meal is carefully curated using fresh, natural ingredients, with no preservatives or artificial flavors, ensuring you get only the best for your body.</p>
                         <p>Whether you’re a student needing energy-packed meals, a working professional seeking hassle-free nutrition, or someone looking for diabetes-friendly options, Kaai Curry has the perfect plan for you.</p>
                         <p>With affordable pricing, customizable options, and a commitment to wellness, we make it easy to stay on track with your health goals—one delicious meal at a time.</p>
-                        <div className="about-credit">
+                    </div>
+                    <div className="about-credit">
                             <h3>Kaai Curry – Your Health, Our Priority!</h3>
-                        </div>
                     </div>
                 </div>
             </div>

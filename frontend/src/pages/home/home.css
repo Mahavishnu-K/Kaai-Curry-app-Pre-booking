@@ -1,11 +1,5 @@
-body {
-    margin: 0;
-}
-
 .hero {
     position: relative;
-    height: 100vh;
-    overflow: hidden;
 }
 
 .hero-content {
@@ -190,14 +184,14 @@ body {
     position: absolute;
     bottom: -6%;
     right: -5%;
-    width: 770px;
-    height: 430px;
+    max-width: 770px;
+    min-height: 430px;
 }
 
 .ring {
     position: absolute;
     bottom: 0;
-    width: 250px;
+    max-width: 250px;
     animation: appearFromBottomCorner  4s ease-in-out forwards;
 }
 
@@ -215,8 +209,8 @@ body {
 .circle {
     position: absolute;
     top: -20%;
-    left: 25%;
-    animation: fallDown 5s ease-in-out forwards;
+    left: 30%;
+    animation: fallDown 4s ease-in-out forwards;
 }
 
 @keyframes fallDown {
@@ -225,7 +219,7 @@ body {
         opacity: 0;
     }
     100% {
-        top: 0;
+        top: 7%;
         opacity: 1;
     }
 }

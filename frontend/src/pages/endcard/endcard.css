@@ -1,6 +1,6 @@
 .endcard {
     position: relative;
-    height: 100vh;
+    min-height: 800px;
     overflow: hidden;
     background: linear-gradient(135deg, rgba(3, 92, 40, 0.9), rgba(25, 87, 52, 1));
 }
@@ -22,22 +22,22 @@
 }
 
 .korker1{
-    margin-top: -1px;
     font-size: 9rem;
+    
 }
 
 .soon{
     font-family: "Permanent Marker", serif;
     color: white;
-    margin-top: -240px;
+    margin-top: -100px;
     font-size: 3rem;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .korker2{
-    margin-top: -190px;
+    margin-top: -150px;
     font-size: 13rem;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 @keyframes zoomOut {
