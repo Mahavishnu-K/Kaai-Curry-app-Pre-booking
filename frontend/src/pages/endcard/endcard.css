@@ -81,8 +81,8 @@
     position: absolute;
     bottom: -55%;
     right: 1px;
-    width: 1546px;
-    height: 592px;
+    max-width: 1546px;
+    min-height: 592px;
     
 }
 
